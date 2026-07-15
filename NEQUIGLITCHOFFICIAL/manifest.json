@@ -1,0 +1,15 @@
+{
+  "name": "Nequi Glitch Official",
+  "short_name": "NequiGlitch",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1c091e",
+  "theme_color": "#1c091e",
+  "icons": [
+    {
+      "src": "logo2.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
