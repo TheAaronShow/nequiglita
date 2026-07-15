@@ -1,0 +1,128 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.oculto {
+  display: none;
+}
+
+h2 {
+  color: #333;
+  font-size: 20px;
+}
+
+/* Panel Inicial */
+.panel {
+  width: 90%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+form button {
+  width: 100%;
+  padding: 15px;
+  background: #e91e63;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background: #c2185b;
+}
+
+/* Comprobante */
+.comprobante {
+  width: 90%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.banner {
+  background: #e1f5fe;
+  color: #0277bd;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.detalle-movimiento {
+  padding: 20px;
+}
+
+.estado {
+  color: #e91e63;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.origen {
+  display: flex;
+  align-items: center;
+  background: #fce4ec;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.origen img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background: #e91e63;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 0 10px 10px;
+}
+
+button:hover {
+  background: #c2185b;
+}
